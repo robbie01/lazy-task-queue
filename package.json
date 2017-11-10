@@ -1,0 +1,9 @@
+{
+  "name": "lazy-task-queue",
+  "version": "1.0.0",
+  "description": "an automatic task queue accepting async functions",
+  "main": "index.js",
+  "repository": "https://github.com/robbie0630/lazy-task-queue",
+  "author": "Robert Langer <robbie0630dev@gmail.com>",
+  "license": "MIT"
+}
