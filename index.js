@@ -15,4 +15,4 @@ module.exports = (() => {
 		if (!this.running) this.start();
 	}
 	return TaskQueue;
-});
+})();
