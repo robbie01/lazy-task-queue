@@ -13,11 +13,11 @@ const q = new TaskQueue();
 
 const delay = ms => new Promise(res => setTimeout(res, ms)); // for demonstration purposes
 
-q.push(async () => {
+q.add(async () => {
 	console.log("Hi!");
 	await delay(1000);
 });
-q.push(async () => {
+q.add(async () => {
 	console.log("Hi again!");
 });
 
